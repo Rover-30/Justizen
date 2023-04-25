@@ -1,4 +1,4 @@
-# ChatGPT clone with DALL.E image generation model
+# Justizen Model with DALL.E image generation model
 
 *you can checkout the app [here](https://chatgpt.eyucoder.com/)*
 
