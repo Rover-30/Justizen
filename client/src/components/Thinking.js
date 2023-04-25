@@ -10,8 +10,7 @@ const Thinking = () => {
         </div>
         <div className='text-left message__createdAt'>
           <div className="message__thinking">
-            thinking...
-          </div>
+          Nothing is an offence which is done by a person who, at the time of doing it, by reason of unsoundness of mind, is incapable of knowing the nature of the act, or that he is doing what is either wrong or contrary to law.          </div>
         </div>
       </div>
     </div>

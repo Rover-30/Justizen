@@ -15,7 +15,7 @@
 
   /* SideBar */
   .sidebar{
-    @apply flex flex-col gap-y-4 h-screen bg-dark-grey p-5 pt-8 relative duration-500;
+    @apply flex flex-col font-sans gap-y-4 h-screen bg-blue-900 p-5 pt-8 relative duration-500 ;
   }
 
   .sidebar__app-bar{
@@ -135,7 +135,7 @@
   }
 
   .message__thinking{
-    @apply animate-pulse duration-1000 h-12 w-12 dark:text-white text-black text-xl
+    @apply dark:text-white text-black text-xl
   }
 
   /* Signin Page */

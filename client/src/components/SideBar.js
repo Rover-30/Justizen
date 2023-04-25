@@ -4,6 +4,7 @@ import { ChatContext } from '../context/chatContext'
 import bot from '../assets/bot.ico'
 import DarkMode from './DarkMode'
 
+
 /**
  * A sidebar component that displays a list of nav items and a toggle 
  * for switching between light and dark modes.
@@ -26,10 +27,10 @@ const SideBar = () => {
     <section className={` ${open ? "w-72" : "w-20 "} sidebar`}>
       <div className="sidebar__app-bar">
         <div className={`sidebar__app-logo ${!open && "scale-0 hidden"}`}>
-          <span className='w-8 h-8'><img src={bot} alt="" /></span>
+          <span className='w-8 h-8' ><img src={bot} style={{"height":"50px" ,"width":"40px"}} alt="" /></span>
         </div>
         <h1 className={`sidebar__app-title ${!open && "scale-0 hidden"}`}>
-          GPT3-Chatbot
+          JUSTIZEN
         </h1>
         <div className='sidebar__btn-close' onClick={() => setOpen(!open)}>
           {open ? <MdClose className='sidebar__btn-icon' /> : <MdMenu className='sidebar__btn-icon' />}
@@ -48,7 +49,7 @@ const SideBar = () => {
       <div className="nav__bottom">
         <DarkMode open={open} />
         <div className="nav">
-          <a href='https://github.com/EyuCoder/chatgpt-clone' className="nav__item">
+          <a href='https://dictionary.law.com/' className="nav__item">
             <div className="nav__icons">
               <MdOutlineQuestionAnswer />
             </div>

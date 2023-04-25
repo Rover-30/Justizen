@@ -3,13 +3,13 @@
   "version": "1.0.1",
   "private": true,
   "repository": {
-    "type": "git",
-    "url": "https://github.com/eyucoder/chatgpt-clone"
+    "type": "web",
+    "url": "https://dictionary.law.com/"
   },
   "author": {
-    "name": "eyucoder",
-    "email": "eyueldaniel0921@gmail.com",
-    "url": "https://github.com/eyucoder"
+    "name": "Rover-30",
+    "email": "toshakkaushik30@gmail.com",
+    "url": "https://github.com/Rover-30"
   },
   "dependencies": {
     "concurrently": "^7.6.0",
@@ -54,7 +54,7 @@
   },
   "keywords": [
     "openai",
-    "chatgpt",
+    "JUSTIZEN",
     "text-davinci-003",
     "dalle",
     "dall.e",
@@ -65,7 +65,6 @@
     "machine learning",
     "conversational ai",
     "conversation",
-    "chatbot",
     "chat",
     "bot",
     "ai",
